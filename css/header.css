@@ -1,0 +1,148 @@
+/*头部设置*/
+/* 头部最外层div */
+.headers{
+  background:#333333; 
+  height:40px ;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+/* 导航栏div第一行 */
+#navbar{
+  width: 1250px;
+  height:40px ;
+  margin:0 auto;
+  background:#333333;
+  position: relative;  
+}
+/* 导航栏div第一行 左中右 */
+#navbar>.nav_left,#navbar>.nav_center,#navbar>.nav_right{
+  display:inline-block;
+}
+#navbar>.nav_left>.p-0{
+  padding:0;
+}
+#navbar>.nav_center,#navbar>.nav_right{
+  padding-left: 20px;
+}
+#navbar>.nav_center{
+  position:absolute;
+  right: 159px
+}
+#navbar>.nav_right{
+  position:absolute;
+  right:20px;
+  width: 90px;
+  text-align: center;
+  cursor: pointer;       
+}
+/* 购物车背景图片 */
+#navbar>.nav_right>a{
+  background:#424242 url("../image/d7db56d1d850113f016c95e289e36.png") no-repeat 15px 10px;
+  width: 96px;
+}
+/*导航栏的购物车样式*/
+#navbar>.nav_right>a:hover{   
+  background:#fff url("../image/692a6c3b0a93a24f74a29c0f9d68ec.png") no-repeat 15px 10px;
+  color: #FF6700;
+  width: 96px;
+}  
+
+/*导航栏的a标签通用样式*/
+#navbar>.nav_left>a,#navbar>.nav_center>a,#navbar>.nav_right>a{
+  color: #b0b0b0;
+  font-size: 12px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding-left:15px;
+}
+/*导航栏的a标签悬浮时通用样式*/
+#navbar>.nav_left>a:hover,#navbar>.nav_center>a:hover{
+  color: #fff;
+}
+
+/* #navbar>.nav_right>img{ 
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}*/
+/* logo */
+.nav_logo{
+  height: 100px;
+  width: 1250px;
+  margin:0 auto;
+  position: relative;
+}
+.logo{
+  height:62px;
+  width:55px;
+  margin-top:22px;
+  float:left;
+}
+.hearer_phone,.header_serch{
+  float:left;
+  position: relative;
+}
+/*<!-- 导航栏手机 -->*/
+.hearer_phone{
+  padding-left:120px; 
+  padding-top: 22px;
+}
+.hearer_phone>ul>li>a{  
+    color: #333;
+  }
+.hearer_phone>ul>li>a:hover{
+  color: #FF6700;
+}
+
+/*<!--搜索  -->*/
+.header_serch{
+  margin-left: 176px;
+  display: flex;
+  box-sizing: border-box;
+  height: 52px;
+  margin-top: 20px;
+  width: 293px;
+  border: 1px solid#E0E0E0;
+}
+
+.header_serch>.input_text{
+  height:50px;
+  width:245px;
+  box-sizing: border-box;
+  margin-right: -4px;
+  line-height: 50px;
+  border: 0;
+  outline: 0;
+}
+.header_serch:hover{
+  border: 1px solid#424242;
+}
+.header_serch:hover.header_serch>.span{
+  border-left:1px solid#424242 ;
+}
+.header_serch>.span{
+  display: inline-block;
+  width: 50px;
+  height:50px;
+ border-left:1px solid#E0E0E0 ;
+}
+/*  
+.header_serch>input:focus{
+   border: 1px solid #FF6700;
+}*/
+.hearer_phone>ul>li{
+  float:left; padding-left: 15px;
+  height: 55px;
+}
+.input_serch:hover{
+  background:#FF6700 url("../image/fangdajing2.png") no-repeat 1px 1px;
+}
+.input_serch{
+  border-left:0;
+  height:50px;
+  width:52px;
+  box-sizing: border-box;
+  background:url("../image/fangdajing1.png") no-repeat 1px 1px;     
+}

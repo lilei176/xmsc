@@ -1,0 +1,125 @@
+footer{
+  position: relative;
+  margin:20px auto;
+}
+.footer-service{
+  width: 1250px;
+  margin: 0 auto;
+}
+.footer-service>ul{
+  border-bottom:1px solid #E0E0E0 ;
+}
+.site-footer{
+  width: 18.8%;
+  height: 25px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  position: relative;
+  padding-left: 15px;
+  padding-bottom: 23px;
+}
+.site-footer a{
+  color: #616161;
+  font-size: 16px;
+}
+.site-footer>span{
+  margin:0 0 0 62px;
+}
+.site-footer>img{
+  position: absolute;
+  top:0px;
+}
+.posi-left1{
+  left: 23px;
+
+}
+.posi-left2{
+  left: 9px;
+
+}
+.posi-left3{
+  left: 15px;
+
+}
+.posi-left5{
+  left: 42px;
+
+}
+#footer-xq>ul{
+  padding-right: 84px;
+}
+#footer-xq>ul>li>h4{
+  font-size: 14px;
+  line-height: 1.25;
+  color: #424242;
+  font-weight: normal;
+}
+.contact{
+  border-left: 1px solid #E0E0E0 ;
+  margin: 38px 0px 0 0;
+  padding-left: 118px;
+}
+#footer-xq>ul>li>a{
+  color: #757575;
+  font-size: 12px;
+  margin-bottom: 15px;
+  display: block
+}
+.contact>p:first-child{
+  margin: 0 0 5px;
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+  text-align: center;
+}
+.contact>p:nth-child(2){
+  font-size: 12px;
+}
+.contact>a{
+  display: block;
+  width: 118px;
+  height: 28px;
+  font-size: 12px;
+  line-height: 28px;
+  border:1px solid #ff6700;
+  color: #ff6700;
+  text-align: center;
+}
+.site{
+  background:#F5F5F5;
+  width: 100%;
+}
+.site-body{
+  width:1250px;
+  margin:0 auto;
+  position: relative;
+}
+.site-logo{
+  position: absolute;
+  top:0;
+  left:0px;
+}
+.lianjie{
+  margin-left: 74px;
+}
+.lianjie>p{
+ margin: 0;
+}
+.lianjie>p>a{
+  color: #757575;
+  font-size: 12px;
+}
+.site-img{
+  margin-left:72px;
+}
+.site-img>p{
+  margin:0;
+}
+.slogan-ir{
+  margin: 30px auto 0;
+  width: 267px;
+  height: 19px;
+  background: url(../image/slogan2016.png) no-repeat center 0;
+  font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
